@@ -1,0 +1,119 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "How are you?", "Is anyone there?", "Howdy", "Yo", "Good day"],
+      "responses": ["Hello!", "Hi there!", "Greetings!", "How can I help you?", "Hello, how can I assist you today?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Take care", "See ya", "Farewell"],
+      "responses": ["Goodbye!", "See you later!", "Have a nice day!", "Take care, talk to you soon!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "I appreciate it", "Thanks a lot"],
+      "responses": ["You're welcome!", "Happy to help!", "Anytime!", "No problem!"]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["What are your hours?", "When are you open?", "Are you open now?", "What time do you open?", "What time do you close?"],
+      "responses": ["We're open from 9 AM to 6 PM, Monday to Friday.", "Our office hours are 9 AM to 6 PM, Monday to Friday."]
+    },
+    {
+      "tag": "hello",
+      "patterns": ["Hello!", "Hey there!", "Hi!", "Hi there!", "Greetings!", "Good morning", "Good evening"],
+      "responses": ["Hello! How can I assist you today?", "Hi there! What can I help you with?", "Greetings! How can I be of help?"]
+    },
+    {
+      "tag": "fallback",
+      "patterns": ["I don't understand", "Can you repeat that?", "What do you mean?", "I’m not sure what you mean", "Can you clarify?"],
+      "responses": ["Sorry, I didn't understand that. Could you rephrase?", "I’m not sure what you're asking. Can you clarify?", "Could you please provide more details?"]
+    },
+    {
+      "tag": "default",
+      "patterns": ["", " ", "unknown", "help", "assist", "information"],
+      "responses": ["How can I assist you today?", "How can I help you?", "Please tell me what you need assistance with."]
+    },
+    {
+      "tag": "sorry",
+      "patterns": ["Sorry", "I apologize", "My bad", "Oops", "Sorry about that"],
+      "responses": ["No worries!", "It’s okay!", "Don’t worry about it!", "Everything’s good!"]
+    },
+    {
+      "tag": "account_info",
+      "patterns": ["Can you show my account details?", "What’s my account info?", "Can I get my account summary?", "What is my account status?"],
+      "responses": ["Your account balance is $500.", "Here’s your account info: Balance: $500, Savings: $200."]
+    },
+    {
+      "tag": "balance",
+      "patterns": ["What's my balance?", "How much do I have?", "What is my account balance?"],
+      "responses": ["Your current balance is $500.", "You have $500 in your account."]
+    },
+    {
+      "tag": "expenses",
+      "patterns": ["What are my expenses?", "Can you show my expenses?", "How much have I spent this month?", "What are my current expenses?"],
+      "responses": ["Your total expenses this month are $200.", "You’ve spent $200 so far this month."]
+    },
+    {
+      "tag": "income",
+      "patterns": ["What is my income?", "How much money do I have coming in?", "Show me my income"],
+      "responses": ["Your income this month is $3000.", "You have $3000 in total income."]
+    },
+    {
+      "tag": "budget",
+      "patterns": ["What is my budget?", "Can you show my budget?", "What’s my budget allocation for this month?"],
+      "responses": ["Your budget for this month is $2000.", "You’ve allocated $2000 for this month’s budget."]
+    },
+    {
+      "tag": "saving_goal",
+      "patterns": ["What’s my saving goal?", "How much do I need to save?", "Tell me my saving goal progress"],
+      "responses": ["Your saving goal is $1000, and you’ve saved $200 so far.", "You need to save $1000, and you've saved $200."]
+    },
+    {
+      "tag": "expenses_category",
+      "patterns": ["What is my spending on groceries?", "How much did I spend on entertainment?", "Show me my food expenses", "Tell me about my travel expenses"],
+      "responses": ["You spent $50 on groceries this month.", "Your entertainment expenses are $100.", "You’ve spent $75 on travel."]
+    },
+    {
+      "tag": "over_budget",
+      "patterns": ["Did I exceed my budget?", "Am I over budget?", "I think I spent more than my budget"],
+      "responses": ["You have exceeded your budget by $200.", "You’re over budget by $200 this month."]
+    },
+    {
+      "tag": "bill_due",
+      "patterns": ["When is my bill due?", "What bills are coming up?", "Do I have any bills due soon?", "When is my next bill?"],
+      "responses": ["Your electricity bill is due on 15th February.", "Your phone bill is due on the 20th February."]
+    },
+    {
+      "tag": "payment_status",
+      "patterns": ["Was my payment successful?", "Did my payment go through?", "Can you confirm my last payment?"],
+      "responses": ["Your last payment of $100 was successful.", "Your payment of $100 has been processed."]
+    },
+    {
+      "tag": "investment",
+      "patterns": ["How’s my investment doing?", "What is my current investment balance?", "Can you show my investment progress?"],
+      "responses": ["Your investment is currently valued at $1500.", "You’ve earned $500 from your investments."]
+    },
+    {
+      "tag": "loan_status",
+      "patterns": ["What is the status of my loan?", "How much do I owe on my loan?", "Can you show my loan balance?"],
+      "responses": ["You owe $2000 on your loan.", "Your loan balance is $2000."]
+    },
+    {
+      "tag": "loan_payment",
+      "patterns": ["How much do I need to pay for my loan?", "When is my loan payment due?", "What is my next loan payment?"],
+      "responses": ["Your next loan payment of $300 is due on 25th February.", "You need to pay $300 for your loan this month."]
+    },
+    {
+      "tag": "transfer_funds",
+      "patterns": ["Can I transfer funds?", "How do I transfer money?", "I want to transfer money to another account", "Help me with transferring money"],
+      "responses": ["To transfer funds, go to your account page and select 'Transfer'.", "You can transfer money by selecting 'Transfer Funds'."]
+    },
+    {
+      "tag": "credit_score",
+      "patterns": ["What’s my credit score?", "How's my credit rating?", "Can you show me my credit score?"],
+      "responses": ["Your current credit score is 750.", "Your credit score is 750."]
+    }
+  ]
+}
